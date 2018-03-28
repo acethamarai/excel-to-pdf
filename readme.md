@@ -1,6 +1,7 @@
 <h1>Excel to PDF Generation using Laravel 5.4 - As a Application Salary Payslip Generation in PDF Format.</h1>
-Laravel is most popular & Well Syntax PHP framework. This project is Laravel 5.4 integrated with Bootstrap Admin/Dashboard Template Admin LTE2. 
-Modules covered this project - <strong>Login, Registration, Excel Data Import with Predefined format, Impored Data View, Export to Payslip PDF.</strong>
+<p>Laravel is most popular & Well Syntax PHP framework. This project is Laravel 5.4 integrated with Bootstrap Admin/Dashboard Template Admin LTE2. </p>
+<p>Modules covered this project - <strong>Login, Registration, Excel Data Import with Predefined format, Impored Data View, Export to Payslip PDF.</strong></p>
+<p>This Project is helpful for Small Size Business Companies.</p>
 
 <h2>Steps to Setup this Project</h2>
 <li>Download this repository</li>
@@ -23,7 +24,7 @@ or
 <h2>Excel format to Import into Project</h2>
 <img src="https://s3.ap-south-1.amazonaws.com/project-stock-images/sample-excel.jpg" />
 
-<h2>Payslip format of PDF</h2>
+<h2>Salary Payslip format in PDF</h2>
 <img src="https://s3.ap-south-1.amazonaws.com/project-stock-images/sample-payslip-pdf.jpg" />
 
 <strong>Hope you to help my project, taking forward bigger level !!.</strong>
