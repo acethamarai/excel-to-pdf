@@ -22,7 +22,8 @@ or
 
 <h2>Excel format to Import into Project</h2>
 <img src="https://s3.ap-south-1.amazonaws.com/project-stock-images/sample-excel.jpg" />
-<h2>Payslip format of PDF</h2>
 
+<h2>Payslip format of PDF</h2>
+<img src="https://s3.ap-south-1.amazonaws.com/project-stock-images/sample-payslip-pdf.jpg" />
 
 <strong>Hope you to help my project, taking forward bigger level !!.</strong>
