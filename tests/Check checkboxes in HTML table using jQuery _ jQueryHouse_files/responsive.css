@@ -1,0 +1,647 @@
+/*
+	---------------------------------------------------
+	
+	      abc Mogoze - Styles for Mobile Devices
+
+	---------------------------------------------------
+*/
+
+/* 1350px (devices and browsers) */
+@media only screen and (min-width: 1340px) and (max-width: 1440px) { 
+
+/*-----------------------------------------------------------------------------
+                                 1 - Layout   
+----------------------------------------------------------------------------- */
+.header-container { width: 1350px;}
+.top-header     { width: 1300px; }
+.header-sub     { width: 1298px; }
+.wrap           { width: 1348px; }
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+.social-stats li         { width: 122px;}
+.social-stats li a       { width: 122px;}
+.social-stats li.twitter { background:#FFF url(../images/sstwitter.png) no-repeat 48px 10px; } 
+.social-stats li.facebook { background:#FFF url(../images/ssfacebook.png) no-repeat 48px 10px; }
+.social-stats li.google  { background:#FFF url(../images/ssgoogle.png) no-repeat 48px 10px; }
+.social-stats li.rss     { background:#FFF url(../images/ssrss.png) no-repeat 48px 10px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Sidebar --------------------------------------
+-----------------------------------------------------------------------------*/
+.sidebar2                { width: 316px; }
+.sidebar-comments        { width: 316px; }
+.sidebar2 h3.sidebar1-title-gold { width: 266px;}
+h3.sidebar2-title, h3.sidebar2-title-orange, h3.sidebar2-title-black { width: 266px; }
+.sidebar1 h3.sidebar2-title-orange { width: 270px;}
+.sidebar2 ul.article_list { width: 270px;}
+.sidebar2 ul.article_list li { width: 270px;}
+.sidebar2 #faq-jobs   { width: 270px; margin: 30px auto;}
+.sidebar2 #faq-jobs .accordionButton { width: 220px; }
+.sidebar2 #faq-jobs .accordionContent { width: 220px; }
+/* -- Featured List -- */
+.sidebar2 ul.featured-list  { width: 270px; }
+.sidebar2 .featured-list li { width: 268px; }
+.sidebar2 .featured-list li img { width: 268px; height: 151px; }
+/* -- Job List -- */
+ul.jobs-list             { width: 270px;}
+.jobs-list li            { width: 238px;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Comments ------------------------------------
+-----------------------------------------------------------------------------*/
+
+#comments                { width: 270px; height: auto; margin:30px auto; }
+ul.comment               { width: 270px; height: auto; float: left; margin-bottom: 30px;}
+.comment li              { width: 240px; height: auto; float: left; padding: 10px 15px;}
+#respond h3.sidebar2-title-black {margin:-10px 0 10px -33px !important;}
+
+#respond                   { width: 250px; }
+#commentform textarea      { width: 242px; height:159px;} 
+#commentform #author, #commentform #email, #commentform #url   { width:243px; height:30px; border-radius: 3px; border-radius: 3px; }
+#commentform .submitcomm   { margin: 25px 0 0 0; display: block; width: 100%;}
+
+/*-----------------------------------------------------------------------------
+                                 8 - Footer  
+----------------------------------------------------------------------------- */
+footer                    { width: 1350px;}
+.footer-content           { width: 1348px; }
+.footer-bottom            { width: 1348px; }
+.company                  { width: 200px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10.  Update Version 1.6 -------------------------
+-----------------------------------------------------------------------------*/
+/* -- Full Width -- */
+.post-full                  { width: 1298px; }
+.article-full               { width: 1256px; }
+}   
+
+
+
+
+
+
+
+
+
+
+
+/* Standard 980 (devices and browsers) */
+@media only screen and (min-width: 1000px) and (max-width: 1338px) { 
+
+/*-----------------------------------------------------------------------------
+                                 1 - Layout   
+----------------------------------------------------------------------------- */
+header          { width: 982px; margin: 0 auto;}
+.header-container { width: 982px;}
+.top-header     { width: 932px; }
+.header-sub     { width: 930px; }
+.wrap           { width: 980px; }
+
+/*-----------------------------------------------------------------------------
+                                 2 - Header   
+----------------------------------------------------------------------------- */
+#searchform2    { display: none;}
+.social-stats   { display: none;}
+.banner728      { margin: 0 auto; padding-top: 20px; float: none;}
+
+/*-----------------------------------------------------------------------------
+                                 3 - Content   
+----------------------------------------------------------------------------- */
+.content        { width: 659px;  }
+h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title  { width: 609px;}
+.sidebar1 h3.sidebar2-title-orange { width: 270px;}
+.banner                   { width: 608px; height: 90px; margin: 30px 0 0 25px; }
+.banner468                { width: 486px; height: 60px; float: left; margin:15px 61px;}
+.no-image                 { width: 607px; }
+.wp-pagenavi               { width: 608px; }
+.post                    { width: 607px; }
+.post img                { width: 608px; }
+.article-container       { width: 567px; }
+.article-content         { width: 528px; }
+.article-content2        { width: 567px; }
+h2.article-title a       { font-size: 26px;}
+h1.article-title         { font-size: 26px;}
+
+.entry img               { width: auto;}
+.boxhide iframe          { width: 100%; height: 342px; }
+
+/* -- Freebies -- */
+.free-item  { width:185px; height:185px; }
+.free-item .caption { width:145px; height:145px; }
+
+/* -- Jobs -- */
+ul.jobs                  { width: 608px; }
+.jobs li                 { width: 578px; }
+
+/* -- FAQ -- */
+.accordionButton { width: 528px; }
+.accordionContent { width: 528px; }
+
+/* -- slider -- */
+#slides_single                         { width:608px; height:351px;}
+#slides_single .slides_container       { width:608px;}
+#slides_single .slides_container a     { width:608px; height:351px;}
+#slides_single .slides_container a img { width:608px; height:351px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 4 - Sidebar  
+----------------------------------------------------------------------------- */
+.sidebar1       { margin: 0 !important; border-right: none;}
+.sidebar-comments        { width: 90%; height: auto; float: left; border-right: 1px solid #e3e3e3;}
+.sidebar1-title,
+.sidebar1-title-gold,
+.sidebar2-title-black  { 
+	width: 90% !important;
+	padding: 10px 0 0 25px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+                                 5 - Comments   
+----------------------------------------------------------------------------- */
+#comments                { width: 609px;}
+ul.comment               { width: 609px;}
+.comment li              { width: 579px;}
+#respond                   { width: 609px; }
+#commentform textarea      { width: 375px; height:159px;  } 
+#commentform #author, #commentform #email, #commentform #url   { width:190px; height:30px; border-radius: 3px; border-radius: 3px; }
+
+/*-----------------------------------------------------------------------------
+                                 6 - Menu   
+----------------------------------------------------------------------------- */
+.jquerycssmenu  { float: right; margin: 0;}
+.mobileMenu     { display: none;}
+
+
+/*-----------------------------------------------------------------------------
+                                 7 - Jobs and contact forms  
+----------------------------------------------------------------------------- */
+/* -- Job Form -- */
+#jobform #contactName, #jobform #emaill, #jobform #jobtitle, #jobform #joblocation  { width:258px;}	
+#jobform textarea.wp-editor-area         { width: 559px;} 
+/* -- Contact Form -- */
+#contactform #contactName, #contactform #emaill, #contactform #subject { width:264px;}	
+#contactform #subject         { width: 559px;}
+#contactform textarea         { width: 559px;} 
+
+
+/*-----------------------------------------------------------------------------
+                                 8 - Footer  
+----------------------------------------------------------------------------- */
+footer                    { width: 980px;}
+.footer-content           { width: 980px; }
+.footer-bottom            { width: 980px; }
+.company                  { width: 230px;}
+.site-stats               { display: none;}
+.facebook-box             { float: right; margin-left: 0; margin-right: 10px;}
+.twitter-box              { margin-left: 20px;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10.  Update Version 1.6 -------------------------
+-----------------------------------------------------------------------------*/
+/* -- Full Width -- */
+.post-full                  { width: 930px; }
+.article-full               { width: 890px; }
+/* -- Tag Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 121px !important; }
+}
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+
+
+/*-----------------------------------------------------------------------------
+                                 1 - Layout   
+----------------------------------------------------------------------------- */
+header          { width: 712px; margin: 0 auto;}
+.header-container { width: 712px;}
+.top-header     { width: 662px; position: relative;}
+.header-sub     { width: 660px; }
+.wrap           { width: 710px; }
+
+/*-----------------------------------------------------------------------------
+                                 2 - Header   
+----------------------------------------------------------------------------- */
+#searchform2                 { width: 180px;}
+#searchform2 #s              { width: 130px;  }
+ul.social-stats          { margin: 20px 0 0 0;  }
+.social-stats li         { width: 163px; height: 88px; float: left;}
+.social-stats li a       { width: 163px; height: 88px; display: inline-block;}
+.social-stats li.twitter { background:#FFF url(../images/sstwitter.png) no-repeat 68px 10px; } 
+.social-stats li.facebook { background:#FFF url(../images/ssfacebook.png) no-repeat 68px 10px; }
+.social-stats li.google  { background:#FFF url(../images/ssgoogle.png) no-repeat 68px 10px; }
+.social-stats li.rss     { background:#FFF url(../images/ssrss.png) no-repeat 68px 10px; }
+.banner728      { display: none;}
+
+/*-----------------------------------------------------------------------------
+                                 3 - Content   
+----------------------------------------------------------------------------- */
+.boxhide                 { margin-bottom: 60px;}
+
+/*-----------------------------------------------------------------------------
+                                 4 - Sidebar  
+----------------------------------------------------------------------------- */
+.sidebar2       { display: none;}
+.sidebar1       { display: none;}
+.sidebar-comments        { width: 710px; height: auto; float: left; border-right: 1px solid #e3e3e3;}
+h3.sidebar2-title-black  { width: 660px;}
+
+/*-----------------------------------------------------------------------------
+                                 5 - Comments   
+----------------------------------------------------------------------------- */
+#comments                { width: 659px;}
+ul.comment               { width: 659px;}
+.comment li              { width: 629px;}
+#respond                   { width: 659px; }
+#commentform textarea      { width: 415px; height:159px;  } 
+#commentform #author, #commentform #email, #commentform #url   { width:200px; height:30px; border-radius: 3px; border-radius: 3px; }
+
+/*-----------------------------------------------------------------------------
+                                 6 - Menu   
+----------------------------------------------------------------------------- */
+.jquerycssmenu  { float: right; margin: 0; display: none;}
+.mobileMenu     { display: inline-block;  width:200px; height:35px; border: none; background-color: #282828; color: #FFF; margin: 10px 0 0 80px; font-size: 13px;  padding: 9px; z-index:999; cursor:pointer; }
+.mobileMenu option  { padding: 0 9px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 8 - Footer  
+----------------------------------------------------------------------------- */
+footer                    { width: 710px;}
+.footer-content           { width: 710px; }
+.footer-bottom            { width: 710px; }
+.company                  {  }
+.site-stats               { }
+.facebook-box             { display: none;}
+.twitter-box              { display: none;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10.  Update Version 1.6 -------------------------
+-----------------------------------------------------------------------------*/
+/* -- for search box ( live search ) -- */
+ul.dwls_search_results       { width: 180px !important; }
+/* -- Full Width -- */
+.post-full                  { width: 660px; }
+.article-full               { width: 620px; }
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+
+
+/*-----------------------------------------------------------------------------
+                                 1 - Layout   
+----------------------------------------------------------------------------- */
+header          { width: 452px; margin: 0 auto;}
+.header-container { width: 452px;}
+.top-header     { width: 402px; position: relative; }
+.header-sub     { width: 400px; height: 85px; }
+.wrap           { width: 450px; }
+
+/*-----------------------------------------------------------------------------
+                                 2 - Header   
+----------------------------------------------------------------------------- */
+#searchform2                 { width: 400px; padding-top: 20px; }
+#searchform2 #s              { width: 350px;  }
+.social-stats   { display: none; }
+.banner728      { display: none;}
+
+/*-----------------------------------------------------------------------------
+                                 3 - Content   
+----------------------------------------------------------------------------- */
+.content        { width: 450px; }
+h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title  { width: 400px;}
+.banner                   { display: none; }
+.banner468                { display: none;}
+.banner250                { width: 250px; height: 250px; display: block; margin: 30px 0 0 100px;}
+.no-image                 { width: 400px; }
+.wp-pagenavi              { width: 400px; }
+.post                    { width: 400px; }
+.post img                { width: 400px; }
+.article-container       { width: 360px; }
+.article-content         { width: 320px;  }
+.article-content2        { width: 360px; }
+h2.article-title a       { font-size: 20px; line-height: 26px;}
+h1.article-title         { font-size: 20px; line-height: 26px; padding-top: 5px;}
+
+.entry img               { width: auto;}
+img.alignleft            { width: 100% !important;}
+img.alignright           { width: 100% !important;}
+img.aligncenter           { width: 100% !important; }
+.boxhide iframe          { width: 100%; height: 231px; }
+.recently                { width: 450px; }
+.boxhide                 { margin-bottom: 60px;}
+
+
+/* -- Freebies -- */
+.free-item  { width:185px; height:185px; }
+.free-item .caption { width:145px; height:145px; }
+.free-item .caption p   { font-size: 11px; line-height: 18px; }
+
+/* -- Jobs -- */
+ul.jobs                  { width: 400px; }
+.jobs li                 { width: 370px; }
+
+/* -- FAQ -- */
+.accordionButton { width: 320px; }
+.accordionContent { width: 320px; }
+
+/* -- slider -- */
+#slides_single                         { width:400px; height:231px;}
+#slides_single .slides_container       { width:400px;}
+#slides_single .slides_container a     { width:400px; height:231px;}
+#slides_single .slides_container a img { width:400px; height:231px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 4 - Sidebar  
+----------------------------------------------------------------------------- */
+.sidebar2       { display: none;}
+.sidebar1       { display: none;}
+.sidebar-comments        { width: 450px; height: auto; float: left; border-right: 1px solid #e3e3e3;}
+h3.sidebar2-title-black  { width: 400px;}
+
+/*-----------------------------------------------------------------------------
+                                 5 - Comments   
+----------------------------------------------------------------------------- */
+#comments                { width: 400px; }
+ul.comment               { width: 400px;}
+.comment li              { width: 370px;}
+#respond                   { width: 400px; }
+#commentform textarea      { width: 235px; height:159px;  } 
+#commentform #author, #commentform #email, #commentform #url   { width:125px; height:30px; border-radius: 3px; border-radius: 3px; }
+
+/*-----------------------------------------------------------------------------
+                                 6 - Menu   
+----------------------------------------------------------------------------- */
+.jquerycssmenu  { float: right; margin: 0; display: none;}
+.mobileMenu     { display: inline-block; float: right;  width:150px; height:35px;  border: none; background-color: #282828; color: #FFF; margin: 10px 0 0 0; font-size: 13px;  padding: 9px; z-index:999; cursor:pointer; }
+.mobileMenu option  { padding: 0 9px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 7 - Jobs and contact forms  
+----------------------------------------------------------------------------- */
+/* -- Job Form -- */
+#jobform                   { width: 400px; }
+#jobform #contactName, #jobform #emaill, #jobform #jobtitle, #jobform #joblocation  { width:350px;  }   
+#jobform textarea.wp-editor-area         { width: 350px;} 
+.one_half_c, .one_half_last_c       { float:left; width:360px; margin-right:0px; clear: both; }
+.one_half_last_c                    { margin-right:0;}
+.one_full_c                         { float:left; width:100%;}
+
+/* -- Contact Form -- */
+#contactform #contactName, #contactform #emaill, #contactform #subject { width:350px;} 
+#contactform #subject         { width: 350px;}
+#contactform textarea         { width: 350px;} 
+
+
+/*-----------------------------------------------------------------------------
+                                 8 - Footer  
+----------------------------------------------------------------------------- */
+footer                    { width: 450px;}
+.footer-content           { width: 450px; }
+.footer-bottom            { width: 450px; }
+.company                  { width: 368px;}
+.site-stats               { display: none;}
+.facebook-box             { display: none;}
+.twitter-box              { display: none;}
+ul.footer-menu            { display: none;}
+.copyright                { text-align: center; float: none; margin: 0;}
+
+/*-----------------------------------------------------------------------------
+                                 9 - shortcodes  
+----------------------------------------------------------------------------- */
+/* -- Columns -- */
+.one_half, .one_half_last         { float:left;width:360px; margin-bottom:10px; margin-right:0; }
+.one_half_last                    { margin-right:0;}
+
+.one_third, .one_third_last       { float:left; width:360px; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10.  Update Version 1.6 -------------------------
+-----------------------------------------------------------------------------*/
+/* -- for search box ( live search ) -- */
+ul.dwls_search_results       { width: 365px !important; }
+/* -- Full Width -- */
+.post-full                  { width: 400px; }
+.article-full               { width: 360px; }
+/* -- Tag Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 160px !important; }
+}
+
+
+
+
+
+
+
+
+
+/* All Mobile Size (devices) */
+@media only screen and (max-width: 479px) {
+
+
+/*-----------------------------------------------------------------------------
+                                 1 - Layout   
+----------------------------------------------------------------------------- */
+header          { width: 100%; margin: 0 auto;}
+.header-container { width: 100%;}
+.top-header     { width: 100%; position: relative;}
+.header-sub     { width: 100%; height: auto; margin: 0;}
+.wrap           { width: 100%; }
+
+/*-----------------------------------------------------------------------------
+                                 2 - Header   
+----------------------------------------------------------------------------- */
+#searchform2                 { width: 250px; padding-bottom: 15px; }
+#searchform2 #s              { width: 200px;  }
+.social-stats   { display: none; }
+.banner728      { display: none;}
+
+/*-----------------------------------------------------------------------------
+                                 3 - Content   
+----------------------------------------------------------------------------- */
+.content        { width: 100%; }
+h3.content-title, h3.freebies-title, h3.jobs-title, h3.blog-title  { width: 250px;}
+.banner                   { display: none; }
+.banner250                { display: block; margin: 30px 0 0 25px;}
+.banner468                { display: none;}
+.no-image                 { width: 250px; }
+.wp-pagenavi               { width: 250px; }
+.post                    { width: 100%; }
+.post img                { width: 250px; }
+.article-container       { width: 90%; margin:0;}
+.article-content         { width: 90%; }
+.article-content2        { width: 90%; }
+h2.article-title a       { font-size: 20px; line-height: 16px; }
+h1.article-title         { font-size: 20px; line-height: 24px; padding-top: 5px;}
+
+.rating                  { display: none;}
+.no-image                { margin-bottom: -60px;}
+
+img.alignleft                { float: none; margin: 20px 0 10px 0;}
+img.alignright               { float: none; margin: 20px 0 10px 0;}
+
+.entry img               { width: auto;}
+img.alignleft            { width: 100% !important;}
+img.alignright           { width: 100% !important;}
+img.aligncenter           { width: 100% !important; }
+.boxhide iframe          { width: 100%; height: 144px; }
+.recently                { width: 90%; }
+.boxhide                 { margin-bottom: 0;}
+.boxhide:hover           { margin-bottom: 0;}
+
+/* -- Pagination -- */
+.wp-pagenavi               { font-size: 15px; padding: 10px 25px 5px 25px; }
+.wp-pagenavi a, .wp-pagenavi span  { display: inline-block; padding:7px 22px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;  list-style: none;  margin-bottom: 5px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; margin-right:1px; font-size:12px; font-weight:bold; }
+.wp-pagenavi a:hover, .list1 li a:hover, .list2 li a:hover  { border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; }
+.wp-pagenavi span.current  { border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;}
+.wp-pagenavi .pages        { display:none; }
+
+/* -- Freebies -- */
+.free-item  { width:250px; height:250px; }
+.free-item img  { width: 100%; height: 100%;}
+.free-item .caption { width:210px; height:210px; }
+.free-item .caption h2  { font-size: 16px; line-height: 24px;  }
+
+/* -- Jobs -- */
+ul.jobs                  { width: 250px; }
+.jobs li                 { width: 220px; }
+
+/* -- FAQ -- */
+.accordionButton { width: 170px; }
+.accordionContent { width: 170px; }
+
+/* -- slider -- */
+#slides_single                         { width:250px; height:144px;}
+#slides_single .slides_container       { width:250px;}
+#slides_single .slides_container a     { width:250px; height:144px;}
+#slides_single .slides_container a img { width:250px; height:144px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 4 - Sidebar  
+----------------------------------------------------------------------------- */
+.sidebar2       { display: none;}
+.sidebar1       { display: none;}
+.sidebar-comments        { width: 300px; height: auto; float: left; border-right: 1px solid #e3e3e3;}
+h3.sidebar2-title-black  { width: 250px;}
+
+/*-----------------------------------------------------------------------------
+                                 5 - Comments   
+----------------------------------------------------------------------------- */
+#comments                { width: 250px; }
+ul.comment               { width: 250px;}
+.comment li              { width: 220px;}
+#respond                   { width: 250px; }
+#commentform textarea      { width: 242px; height:159px;} 
+#commentform #author, #commentform #email, #commentform #url   { width:243px; height:30px; border-radius: 3px; border-radius: 3px; }
+#commentform .submitcomm   { margin: 25px 0 0 0; display: block; width: 100%;}
+
+/*-----------------------------------------------------------------------------
+                                 6 - Menu   
+----------------------------------------------------------------------------- */
+.jquerycssmenu  { float: right; margin: 0; display: none;}
+.mobileMenu     { display: inline-block; float: right;  width:250px; height: 35px; border: none; background-color: #282828; color: #FFF; margin: 20px 0 0 0; font-size: 13px;  padding: 9px; z-index:999; cursor:pointer; }
+.mobileMenu option  { padding: 0 9px;}
+
+
+/*-----------------------------------------------------------------------------
+                                 7 - Jobs and contact forms  
+----------------------------------------------------------------------------- */
+/* -- Job Form -- */
+#jobform                   { width: 200px;  }
+#jobform #contactName, #jobform #emaill, #jobform #jobtitle, #jobform #joblocation  { width:200px;  }   
+#jobform textarea.wp-editor-area         { width: 200px;} 
+#jobform .sendemail       { margin: 25px 0 0 0; width: 100%; }
+.one_half_c, .one_half_last_c       { float:left; width:210px; margin-right:0px; clear: both; }
+.one_half_last_c                    { margin-right:0;}
+.one_full_c                         { float:left; width:100%;}
+
+/* -- Contact Form -- */
+#contactform #contactName, #contactform #emaill, #contactform #subject { width:200px;} 
+#contactform #subject         { width: 200px;}
+#contactform textarea         { width: 200px;} 
+#contactform .sendemail       { margin: 25px 0 0 0; width: 100%; }
+
+
+/*-----------------------------------------------------------------------------
+                                 8 - Footer  
+----------------------------------------------------------------------------- */
+footer                    { width: 300px; }
+.footer-content           { width: 300px; }
+.footer-bottom            { width: 300px; }
+.company                  { width: 220px;}
+.site-stats               { display: none;}
+.facebook-box             { display: none;}
+.twitter-box              { display: none;}
+ul.footer-menu            { display: none;}
+.copyright                { text-align: center; float: none; margin: 0;}
+
+/*-----------------------------------------------------------------------------
+                                 9 - shortcodes  
+----------------------------------------------------------------------------- */
+/* -- Columns -- */
+.one_half, .one_half_last         { float:left;width:210px; margin-bottom:10px; margin-right:0; }
+.one_half_last                    { margin-right:0;}
+
+.one_third, .one_third_last       { float:left; width:210px; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10.  Update Version 1.6 -------------------------
+-----------------------------------------------------------------------------*/
+/* -- for search box ( live search ) -- */
+ul.dwls_search_results       { width: 250px !important; }
+/* -- Full Width -- */
+.post-full                  { width: 250px; }
+.article-full               { width: 210px; }
+/* -- Tag Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 210px !important; }
+}
+
+/* bd dec 2017 edits */
+.mobileMenu,
+#searchform2{
+	display: none;
+}
+
+@media screen and (max-width: 800px){
+	button#responsive-menu-button{
+		right: 55px !important;
+	}
+
+	#div-gpt-ad-1512068371103-3{
+		margin: 0 !important;
+	}
+
+	#div-gpt-ad-1512068371103-3 > div{
+		margin: 2em auto 0 auto;
+		display: block !important;
+	}
+}

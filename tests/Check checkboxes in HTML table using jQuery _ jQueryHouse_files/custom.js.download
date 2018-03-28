@@ -1,0 +1,38 @@
+jQuery( document ).ready( function( $ ) {
+"use strict";
+
+	/////////////////////////////////
+	// Accordion
+	/////////////////////////////////
+	jQuery(".accordionButton").click(function(){jQuery(".accordionButton").removeClass("on");jQuery(".accordionContent").slideUp("normal");if(jQuery(this).next().is(":hidden")==true){jQuery(this).addClass("on");jQuery(this).next().slideDown("normal")}});jQuery(".accordionButton").mouseover(function(){jQuery(this).addClass("over")}).mouseout(function(){jQuery(this).removeClass("over")});jQuery(".accordionContent").hide();
+
+	/////////////////////////////////
+	// Images Hover
+	/////////////////////////////////
+	jQuery(function() {
+	jQuery(".post img, .article_list img, .featured-list img").css("opacity","1.0");
+	jQuery(".post img, .article_list img, .featured-list img").hover(function () {
+	jQuery(this).stop().animate({ opacity: 0.8 }); },
+	function () { jQuery(this).stop().animate({ opacity: 1.0 }, "slow");});
+	});
+
+	/////////////////////////////////
+	// Go to TOP
+	/////////////////////////////////
+	jQuery('a[href=#top]').click(function(){
+	        jQuery('html, body').animate({scrollTop:0}, 'slow');
+	        return false;
+	});
+
+
+	/////////////////////////////////
+	// Freebies 
+	/////////////////////////////////
+    jQuery('.free-item').hover(function() {
+        jQuery(this).find('div.caption').stop(false,true).fadeIn(200);
+    },
+    function() {
+        jQuery(this).find('div.caption').stop(false,true).fadeOut(200);
+    });
+
+}); // jQuery(document).
