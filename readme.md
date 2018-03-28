@@ -21,7 +21,7 @@ or
 <p>Open as http://localhost/%projectname%/public/</p>
 
 <h2>Excel format to Import into Project</h2>
-
+<img src="https://s3.ap-south-1.amazonaws.com/project-stock-images/sample-excel.jpg" />
 <h2>Payslip format of PDF</h2>
 
 
